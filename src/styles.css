@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "RubikScribble";
+  src: local("RubikScribble-Regular"),
+    url("./assets/fonts/Rubik_Scribble/RubikScribble-Regular.ttf");
+}
+
+body {
+  background-color: #141414;
+  border: 1px solid #ebebeb;
+  color: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  height: calc(100dvh - min(4dvh, 4dvw) - 2px);
+  margin: min(2dvh, 2dvw);
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  font-family: VT323, PressStart2P, monospace;
+}
